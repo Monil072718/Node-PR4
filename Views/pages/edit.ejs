@@ -51,10 +51,9 @@
           --select book type--
         </option>
         <option <%= books.booktype === 'General' ? 'selected' : '' %> value="General" class="text-gray-800">General</option>
-        <option <%= books.booktype === 'Sci-Fi' ? 'selected' : '' %> value="Sci-Fi" class="text-gray-800">Sci-Fi</option>
-        <option <%= books.booktype === 'Crime & Mystery' ? 'selected' : '' %> value="Crime & Mystery" class="text-gray-800">Crime & Mystery</option>
-        <option <%= books.booktype === 'Romance' ? 'selected' : '' %> value="Romance" class="text-gray-800">Romance</option>
-        <option <%= books.booktype === 'History' ? 'selected' : '' %> value="History" class="text-gray-800">History</option>
+        <option <%= books.booktype === 'Sci-Fi' ? 'selected' : '' %> value="Sci-Fi" class="text-gray-800">Autobiogarphy</option>
+        <option <%= books.booktype === 'Crime & Mystery' ? 'selected' : '' %> value="Crime & Mystery" class="text-gray-800">Cook Book</option>
+        <option <%= books.booktype === 'Romance' ? 'selected' : '' %> value="Romance" class="text-gray-800">Young Adult</option>
       </select>
       <p class="text-danger fw-bold" id="booktypeError"></p>
     </div>
